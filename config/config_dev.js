@@ -5,7 +5,7 @@ module.exports = {
     SMTP_MAIL_PASS : process.env.SMTP_MAIL_PASS,
     COMPANY_NAME : process.env.COMPANY_NAME,
 
-    DB_URL: 'mongodb://jalak:123456789jalak@ds343887.mlab.com:43887/prackr_user',
-    PORT :3000
+    DB_URL: process.env.DB_URL,
+    PORT :process.env.PORT
 }
 // mongodb://jalak:123456789jalak@ds155714.mlab.com:55714/user
