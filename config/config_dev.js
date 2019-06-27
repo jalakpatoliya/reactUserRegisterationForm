@@ -8,4 +8,3 @@ module.exports = {
     DB_URL: process.env.DB_URL,
     PORT :process.env.PORT
 }
-// mongodb://jalak:123456789jalak@ds155714.mlab.com:55714/user
